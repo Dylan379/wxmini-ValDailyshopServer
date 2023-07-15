@@ -38,7 +38,7 @@ module.exports = {
     getSkinBundles: async (skinName) => {
         let weaponBundlesInfo = [];
         const res = require('../../public/json/skins.json');
-        var reg = new RegExp('' + skinName)
+        var reg = new RegExp('' + skinName);
         res.data.forEach(async element => {
             if (reg.test(element.displayName)) {
                 element.chromas.length = 1,

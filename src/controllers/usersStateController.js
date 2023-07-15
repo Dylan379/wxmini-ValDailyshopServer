@@ -16,8 +16,8 @@ module.exports = {
      * @param {Object} ctx
      */
     Login: async ctx => {
-        const appid = 'wx70e4cf6c9d31e2c8';
-        const secret = 'f9cb254f97fc727cc27e1a79e3e039c2';
+        const appid = '';
+        const secret = '';
         const { code, avatarurl, nikename } = ctx.request.body;
         if (code) {
             const url = 'https://api.weixin.qq.com/sns/jscode2session?appid=' + appid + '&secret=' + secret + '&js_code=' + code + '&grant_type=authorization_code';

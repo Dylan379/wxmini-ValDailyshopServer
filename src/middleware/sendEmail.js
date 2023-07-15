@@ -12,8 +12,8 @@ module.exports = {
             port: 465,
             secure: true, // true for 465, false for other ports
             auth: {
-                user: 'tt2373571519@163.com', // 发送方邮箱的账号
-                pass: 'FJHVGMNNJFFDLEVI', // 邮箱授权密码
+                user: '', // 发送方邮箱的账号
+                pass: '', // 邮箱授权密码
             },
         });
         // 定义transport对象并发送邮件

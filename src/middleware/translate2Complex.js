@@ -2,8 +2,8 @@ const koa2Req = require('koa2-request')
 const baseurl = 'https://www.mxnzp.com/api/convert/zh';
 const config = {
     type: 1,
-    app_id: 'rlepzqhdtzh9wloo',
-    app_secreat: 'a3lrdks2eWQ3SG4yNDFWR1pabWliUT09'
+    app_id: '',
+    app_secreat: ''
 }
 module.exports = {
     /**
